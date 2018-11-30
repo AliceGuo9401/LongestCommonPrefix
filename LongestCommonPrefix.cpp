@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+/*start*/
 string longestCommonPrefix(vector<string>& strs) {
     if (strs.size() == 0)
         return "";
@@ -43,7 +43,7 @@ string longestCommonPrefix(vector<string>& strs) {
     string str(strs[0].begin(), strs[0].begin() + longest);
     return str;
 }
-
+/*end*/
 int main() {
     vector<string> strs{"f", "f"};
     string str = longestCommonPrefix(strs);
